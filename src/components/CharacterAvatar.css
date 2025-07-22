@@ -1,0 +1,23 @@
+@keyframes puff {
+  0% {
+    opacity: 0.5;
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-10px) scale(1.2);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px) scale(1.4);
+  }
+}
+
+.smoke {
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.6) 20%, transparent 70%);
+  border-radius: 50%;
+  animation: puff 1.5s infinite ease-in-out;
+  pointer-events: none;
+}
