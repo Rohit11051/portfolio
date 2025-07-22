@@ -30,7 +30,7 @@ const Contact = () => {
         Contact Me
       </h2>
       <p className="mb-8 text-black dark:text-white font-orbitron">
-        Have a project in mind or just want to connect? Feel free to reach out!
+        Got a wild idea, a cool project, or just wanna connect? Hit me up!
       </p>
 
       <form onSubmit={onSubmit} className="space-y-6 text-left">
@@ -97,7 +97,7 @@ const Contact = () => {
             type="submit"
             className="bg-pink-500 hover:bg-pink-600 dark:bg-purple-500 dark:hover:bg-purple-600 text-white py-2 px-6 rounded transition font-orbitron"
           >
-            Send Message
+            Send it !
           </button>
         </div>
 
