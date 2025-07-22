@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
-
 import { FaBrain, FaBookOpen, FaShieldAlt, FaUserAstronaut } from "react-icons/fa";
 
 const AboutMeFullPage = () => {
+    useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="min-h-screen flex flex-col bg-white dark:bg-black text-black dark:text-white font-mono">
       <main className="flex-grow max-w-4xl mx-auto px-6 py-16">
