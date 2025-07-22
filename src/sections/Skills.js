@@ -18,20 +18,17 @@ import {
   SiTailwindcss,
   SiExpress,
   SiMongodb,
-  SiMysql,
   SiFlask,
   SiDocker,
   SiFigma,
   SiCplusplus,
   SiCanva,
-  SiGit,
   SiGithub,
 } from "react-icons/si";
-import { SiGoogle, SiEc } from "react-icons/si"; // EC-Council substitute
+import { SiGoogle} from "react-icons/si"; // EC-Council substitute
 import { FaUniversity } from "react-icons/fa"; // Forage fallback
 import { GrMysql } from "react-icons/gr";
 import { TbSql, TbRegex } from "react-icons/tb";
-import { PiBugBeetleLight } from "react-icons/pi";
 import { CgSearch } from "react-icons/cg";
 import { MdOutlineRadar, MdOutlineWifi, MdLockOpen } from "react-icons/md";
 import { AiOutlineLayout, AiOutlineEdit, AiOutlineRobot } from "react-icons/ai";
