@@ -2,10 +2,11 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaGraduationCap, FaBriefcase } from "react-icons/fa";
+import { MdDescription } from "react-icons/md";
 
 const experienceData = {
   education: [
-    { title: "Birth", year: "2001" },
+    { title: "Kindergarten", year: "2004, Prolly completed with an unconscious mind" },
     { title: "Victoria High School", year: "2018" },
     { title: "R.D. National College", year: "2023" },
     { title: "Texas Tech University", year: "2024" },

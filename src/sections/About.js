@@ -10,7 +10,7 @@ const About = () => {
       {/* Profile Image */}
       <div className="flex-shrink-0">
         <img
-          src="/rohit_profile.jpg" // ✅ directly from public folder
+          src="/IMG_3334.jpg" // ✅ directly from public folder
           alt="Rohit Bhosale"
           className="w-64 h-85 rounded-2xl border-4 border-pink-500 dark:border-purple-500 shadow-lg hover:scale-105 transform transition duration-300"
         />
