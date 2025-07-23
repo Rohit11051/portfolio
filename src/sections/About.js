@@ -27,7 +27,7 @@ const About = () => {
         <div className="mt-6 flex items-center gap-4">
           {/* Download Resume */}
           <a
-            href="/resume.pdf" // ✅ also from public folder
+            href="/CybrRohit.pdf" // ✅ also from public folder
             target="_blank"
             rel="noopener noreferrer"
             className="bg-pink-600 dark:bg-purple-600 text-white px-6 py-2 rounded-full font-orbitron hover:bg-pink-700 dark:hover:bg-purple-700 transition"

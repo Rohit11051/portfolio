@@ -143,7 +143,7 @@ const Skills = () => {
         {skillsData[selectedCategory].map((skill, index) => (
           <div
             key={index}
-            className="relative rounded-xl shadow-[0_0_12px_rgba(236,72,153,0.3)] dark:shadow-[0_0_12px_rgba(168,85,247,0.25)] transition-all duration-300"
+            className="relative rounded-xl shadow-[0_0_6px_rgba(236,72,153,0.3)] dark:shadow-[0_0_12px_rgba(168,85,247,0.25)] transition-all duration-300"
           >
             <div className="bg-white dark:bg-[#0d0d0d] rounded-xl p-6 text-left">
               <div className="flex items-center mb-3">
