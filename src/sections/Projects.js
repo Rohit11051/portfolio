@@ -14,7 +14,7 @@ const Projects = () => {
       description:
         "Used YOLOv3 to classify car make, model, and motorcycles. Enhanced detection with video frames, color recognition, and future speed estimation.",
       tech: ["Python", "YOLOv3", "OpenCV", "Video Frame Editing"],
-      link: "https://github.com/Rohit11051",
+      link: "https://github.com/Rohit11051/vehicle-recognition-clean",
     },
     {
       name: "Soul Harmony (E-Commerce Site)",
